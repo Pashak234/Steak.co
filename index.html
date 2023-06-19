@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steak.Co</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Custom style -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap');
+        body{
+            font-family: 'Montserrat', sans-serif;
+        }
+        .row{
+            overflow-y: hidden;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .row::-webkit-scrollbar{
+            display: none;
+        }
+        .bg-custom-brown{
+            background-color: #884A39;
+        }
+        .brand-font{
+            font-family: 'Dancing Script', cursive;
+        }
+        .header-gap{
+            gap: 88px;
+        }
+        .about-gap{
+            gap: 128px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Start Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-custom-brown" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand brand-font fs-4" href="#">Steak.co</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" href="#">Home</a>
+              <a class="nav-link active" href="#best-menu">Top Menu</a>
+              <a class="nav-link active" href="#about-us">About Us</a>
+              <a class="nav-link active" href="#contacts">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- End Navbar -->
+
+    <!-- Header start -->
+    <section id="header" class="pt-5 pb-5 bg-custom-brown">
+        <div class="container text-start pb-5 text-white">
+            <div class="row my-5 pt-5 pb-3 justify-content-center header-gap">
+              <div class="col-sm-4 text-center" data-aos="fade-right" data-aos-duration="800" >
+                <img src="header-steak.jpg" alt="" class="img-fluid rounded" width="296">
+              </div>
+              <div class="col-sm-4"  data-aos="fade-left" data-aos-duration="800">
+                <h2>Welcome to <span class="brand-font">Steak.co</span></h2>
+                <p>Welcome to Steak.co, the ultimate destination for carnivores! Indulge in our sizzling steaks, expertly crafted and seared to perfection, while enjoying an unparalleled dining experience that will leave you craving for more.</p>
+                <button type="button" class="btn btn-outline-light">See Our Menu</button>
+              </div>
+            </div>
+    </section>
+    <!-- Header End -->
+
+    <!-- Best Menu Start -->
+    <section id="best-menu" class="py-3 bg-body-tertiary">
+       <div class="container my-3">
+        <div class="row">
+            <div class="col text-center">
+                <h2>Top Menu</h2>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4 mb-3" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000">
+                <div class="card">
+                    <img src="topmenu-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Juicy Steak</h5>
+                      <p class="card-text">A delicious and juicy steak, made from high quality beef, cooked by our professional steak chef.</p>
+                      <h4>$6.99</h4>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1100">
+                <div class="card">
+                    <img src="topmenu-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Fish n' Chips</h5>
+                      <p class="card-text">Delicious light food, rich in taste, made from high quality ingredients.</p>
+                      <h4>$5.99</h4>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4 mb-3" data-aos="fade-left" data-aos-delay="400" data-aos-duration="1200">
+                <div class="card">
+                    <img src="burger-topmenu.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Burger</h5>
+                      <p class="card-text">Very soft burger with juicy patty with high quality ingredients, rich in taste.</p>
+                      <h4>$4.55</h4>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col fs-4 text-center">
+                <p>and many more....</p>
+            </div>
+        </div>
+       </div>
+    </section>
+    <!-- Best Menu End -->
+
+    <!-- about start -->
+    <section id="about-us" class="py-5 bg-custom-brown text-white">
+        <div class="container py-4">
+            <div class="row text-center pt-2">
+                <div class="col">
+                    <h2>About Us</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center my-5 about-gap">
+                <div class="col-md-4" data-aos="fade-down-right" data-aos-duration="1000">
+                    <p>Welcome to Steak.co, the ultimate destination for meat lovers! At Steak.co, we pride ourselves on delivering a tantalizing culinary experience that showcases the finest quality steaks. Our passionate chefs meticulously select premium cuts of meat, ensuring only the juiciest and most flavorful steaks make it to your plate. With a commitment to exceptional service and a warm, inviting ambiance, we invite you to join us at Steak.co and indulge in a truly unforgettable dining adventure. </p>
+                </div>
+                <div class="col-md-4" data-aos="fade-down-left" data-aos-duration="1000">
+                    <img src="about-img.jpg" width="400" alt="" class="img-fluid text-center rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about end -->
+
+    <!-- Contact us start -->
+    <section id="contacts" class="bg-body-tertiary py-2">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col">
+                    <h2>Contact Us</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center my-4">
+                <div class="col-md-4 py-3">
+                    <h5 class="text-center py-4">Our Contacts</h5>
+                    <p data-aos="fade-left"><i class="fa-solid fa-phone"></i> +62 829 1234 5678</p>
+                    <p data-aos="fade-left" data-aos-delay="150"><i class="fa-solid fa-envelope"></i> steakco@example.com</p>
+                    <p data-aos="fade-left" data-aos-delay="200"><a class="text-black" href="#"><i class="fa-brands fa-instagram"></i> @steak.co.id</a></p>
+                    <p data-aos="fade-left" data-aos-delay="250"><a class="text-black" href="#"><i class="fa-brands fa-facebook"></i> Steakco</a></p>
+                    <p data-aos="fade-left" data-aos-delay="300"><a class="text-black" href="#"><i class="fa-solid fa-location-dot"></i> Location</a></p>
+                </div>
+                <div class="col-md-8">
+                    <form>
+                        <h5 class="text-center py-4">Or leave a message</h5>
+                        <div class="mb-3" data-aos="fade-left">
+                          <label for="name" class="form-label">Name</label>
+                          <input type="text" class="form-control" id="name">                  
+                        </div>
+                        <div class="mb-3" data-aos="fade-left" data-aos-delay="150">
+                          <label for="email" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3" data-aos="fade-left" data-aos-delay="250">
+                          <label for="pesan" class="form-label">Message</label>
+                          <textarea class="form-control" id="pesan" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-outline-dark" data-aos="fade-left" data-aos-delay="270">Submit</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact us end -->
+
+    <!-- Footer start -->
+    <footer class="py-3 bg-custom-brown">
+        <p class="text-center fs-5 text-white">©Steak.co 2023</p>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/0301c1bf0f.js" crossorigin="anonymous"></script>
+</body>
+</html>
